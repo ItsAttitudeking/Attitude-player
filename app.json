@@ -1,5 +1,6 @@
 {
   "name": "Attitude player bot",
+  "logo": "https://te.legra.ph/file/be59d5c0d55a63ba62193.jpg",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by @attitude_galaxy.",
   "keywords": ["music", "voicechat", "telegram"],
   "repository": "https://github.com/ItsAttitudeking/Attitude-player",
