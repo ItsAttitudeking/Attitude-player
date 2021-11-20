@@ -1,0 +1,38 @@
+{
+  "name": "Attitude player bot",
+  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by @attitude_galaxy.",
+  "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://github.com/ItsAttitudeking/Attitude-player",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "Pyrogram session string",
+      "required": false
+    },
+    "BOT_TOKEN": {
+      "description": "A bot token from @BotFather",
+      "required": false,
+      "value": ""
+    },
+    "API_ID": {
+      "description": "App ID from my.telegram.org/apps",
+      "required": false,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "App hash from my.telegram.org/apps",
+      "required": false,
+      "value": ""
+    },
+    "SUDO_USERS": {
+      "description": "Don't change the value",
+      "required": false,
+      "value": "1836386247"
+    },
+    "DURATION_LIMIT": {
+      "description": "Max audio duration limit for downloads (minutes).",
+      "required": false,
+      "value": "50"
+    }
+  }
+}
