@@ -78,7 +78,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                 await f.close()
 
     image1 = Image.open("./background.png")
-    image2 = Image.open("etc/foreground.png")
+    image2 = Image.open("etc/foreground.png.jpg")
     image3 = changeImageSize(1280, 720, image1)
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
@@ -112,7 +112,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("**🔗ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ᴀᴛᴛɪᴛᴜᴅᴇ ɢᴀʟᴀxy ꜱᴇʀᴠᴇʀ..............**")
+    lel = await message.reply("⚡")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
